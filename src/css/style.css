@@ -456,3 +456,11 @@ ul{
 .footer__bottom__copyrights span{
   color: #fff;
 }
+
+.socialicon{
+  transition: 0.2s;
+}
+
+.socialicon:hover{
+  fill: #FF4343;
+}
