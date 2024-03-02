@@ -107,7 +107,6 @@ ul{
 
 .banner__title {
   max-width: 100%;
-  padding: 0 70px; /*крутой макет*/
   font-size: 64px;
   font-weight: 900;
   line-height: 75px;
@@ -117,7 +116,7 @@ ul{
 
 .banner__description {
   max-width: 100%;
-  padding: 0 90px; /*крутой макет*/
+  padding: 0 85px; /*крутой макет*/
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
@@ -464,3 +463,4 @@ ul{
 .socialicon:hover{
   fill: #FF4343;
 }
+
