@@ -250,7 +250,7 @@ ul{
 }
 
 .team__block-el {
-  width: 25%;
+  width: 270px;
   margin: 0 15px;
 }
 
@@ -323,6 +323,7 @@ ul{
 
 .reviews__content{
   width: 50%;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -464,3 +465,125 @@ ul{
   fill: #FF4343;
 }
 
+.burger{
+  display: none;
+}
+
+@media (max-width:1024px){
+  .nav__link{
+    font-size: 12px;
+  }
+  .banner__title{
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 62px;
+  }
+  .banner__description{
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 15px;
+    margin-bottom: 89px;
+  }
+  .banner__btn{
+    padding: 32px 65px;
+  }
+  .features__card-el{
+    max-width: 314px;
+  }
+  .features__icon{
+    width: 85px;
+    height: 85px;
+  }
+  .features__title{
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .features__description{
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .works__about{
+    max-width: 256px;
+    max-height: 230px;
+  }
+  .team__block{
+    max-width: 1024px;
+  }
+
+  .team__block-el{
+    max-width: 227px;
+  }
+.team__img{
+  width: 100%; 
+}
+.team__dev{
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.team__desc{
+  font-size: 14px;
+  line-height: 16px;
+}
+
+  .team__title{
+    font-size: 18px;
+    line-height: 21px; 
+  }
+.team__icon{
+  width: 33px;
+  height: 33px;
+}
+.reviews__content{
+  padding: 104px 88px 150px 104px;
+  height: 332px;
+  text-transform: capitalize;
+}
+.reviews__images{
+  height: 332px;
+}
+.reviews__title{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+.reviews__desc{
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+}
+
+@media (max-width:900px){
+  .header__nav{
+    display: none;
+  }
+  .burger{
+    display: block;
+  }
+}
+
+@media (max-width:768px){
+  .banner__title{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 32px;
+  }
+  .banner__description{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;  
+    margin-bottom: 50px;  
+  }
+  .header__inner{
+    border: none;
+  }
+  .banner__btn{
+  padding: 23px 45px;
+  font-size: 24px;
+  line-height: 28px;  
+  }
+}
