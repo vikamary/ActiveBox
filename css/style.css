@@ -354,72 +354,76 @@ ul{
 
 .reviews{
   background-color: #5C3249;
+  margin-bottom: 178px;
 }
 
-.reviews__item{
+.review{
   display: flex;
   flex-wrap: wrap;
 }
 
-.reviews__images{
-  width: 50%;
-  height: 500px;
+.review__wrapper-img{
+  width: 49%;
   position: relative;
 }
 
-.reviews__pic{
+.review__img{
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
+  object-fit: cover;
 }
 
-.reviews__content{
-  width: 50%;
-  height: 500px;
+.review__content{
+  width: 51%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 116px 170px 144px 129px;
+  align-items: center;
+  padding: 133px 80px 121px 40px;
 }
 
-.reviews__title{
+.review__info{
+  max-width: 470px;
+}
+
+.review__title{
   color: #FFF;
   font-family: 'Cardo', sans-serif;
   font-size: 36px;
   font-style: italic;
   font-weight: 400;
-  line-height: 48px;
-  margin-bottom: 30px;
+  line-height: 49px;
+  margin-bottom: 24px;
+  text-transform: capitalize;
 }
 
-.reviews__desc{
+.review__desc{
   font-size: 13px;
   font-weight: 700;
   line-height: 15px;
   color: #fff;
+  text-transform: uppercase;
 }
 
 /*DOWNLOAD*/
-
-.download__inner{
-  margin: 115px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.download {
+  margin-bottom: 114px;
+  text-align: center;
 }
 
 .download__title {
   font-size: 30px;
   font-weight: 500;
   line-height: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 23px;
 }
 
-.download__desc {
-  margin-bottom: 47px;
+.download__description {
+  margin-bottom: 48px;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
@@ -427,11 +431,15 @@ ul{
 }
 
 .download-btn{
-  padding: 33px 85px;
+  padding: 25px;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 370px;
   background-color: #FF4343;
   font-size: 24px;
   font-weight: 900;
-  line-height: 28px;
+  line-height: 30px;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
